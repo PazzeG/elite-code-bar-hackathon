@@ -1,0 +1,20 @@
+:root{
+  --primary-color: #9d446e;
+  --secondary-color: #877179;
+  --lite-color: #efefdc;
+  --dark-color: #35342c;
+  --gray-color: #dbd9ce;
+  --primary-font: 'Metropolis1920';
+  --secondary-font: 'Zilla Slab', serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+@font-face {
+  font-family: 'Metropolis1920';
+  src: local('Metropolis1920'), url(./fonts/Metropolis1920-Regular.ttf) format('truetype');
+}

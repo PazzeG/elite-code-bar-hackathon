@@ -2,14 +2,17 @@
   --primary-color: #9d446e;
   --secondary-color: #877179;
   --lite-color: #efefdc;
-  --dark-color: #35342c;
+  --olive-color: #35342c;
+  --dark-color: #0b0b09;
   --gray-color: #dbd9ce;
   --primary-font: 'Metropolis1920';
   --secondary-font: 'Zilla Slab', serif;
 }
+
 body {
   padding: 0;
   margin: 0;
+  background-color: var(--lite-color)
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');

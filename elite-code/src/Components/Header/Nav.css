@@ -34,36 +34,35 @@
         background: var(--gray-color);
     }
     
-  .bm-menu-wrap {
-    position: fixed;
-    height: 100%;
-  }
-  
-
-  .bm-menu {
-    background: var(--dark-color);
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
-  }
-  
-  .bm-morph-shape {
-    fill: var(--dark-color);
-  }
-  
-  .bm-item-list {
-    padding: 0.8em;
-  }
-  
-  .bm-item {
-    display: inline-block;
-    color: var(--primary-color);
-    font-family: 'Metropolis1920';
-    font-weight: 300;
-    font-size: 24px;
-    margin-top:8px;
-  }
-  
-  .bm-overlay {
-    background:var(--dark-color);
-  }
+    .bm-menu-wrap {
+        position: fixed;
+        height: 100%;
+    }
+    
+    .bm-menu {
+        background: var(--dark-color);
+        padding: 2.5em 1.5em 0;
+        font-size: 1.15em;
+    }
+    
+    .bm-morph-shape {
+        fill: var(--dark-color);
+    }
+    
+    .bm-item-list {
+        padding: 0.8em;
+    }
+    
+    .bm-item {
+        display: inline-block;
+        color: var(--primary-color);
+        font-family: 'Metropolis1920';
+        font-weight: 300;
+        font-size: 24px;
+        margin-top:8px;
+    }
+    
+    .bm-overlay {
+        background:var(--dark-color);
+    }
 }
